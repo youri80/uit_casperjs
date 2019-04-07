@@ -59,3 +59,5 @@ USER phantomjs
 EXPOSE 8910
 
 CMD ["bash"]
+
+#docker run -it --rm --user 0 -v "$(pwd)"/app:/tests uit
